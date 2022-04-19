@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Todo List</title>
+   <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="main.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="main.js" charset="utf-8"></script>
+</head>
+
+<body>
+   <section class="wrap">
+      <h2>오늘 할 일!</h2>
+      <div class="btn-add-area">
+         <button type="button" name="button" class="btn-add">+</button>
+      </div>
+
+      <ul class="todo-list">
+         <li>
+            <label class="check-list"><input type="checkbox" name="" value="">
+               <p class="todo-text">당근마켓 택배보내기</p>
+            </label>
+            <span class="todo-time">오전 11:00</span>
+         </li>
+         <li>
+            <label class="check-list"><input type="checkbox" name="" value="">
+               <p class="todo-text">주간 회의 참석</p>
+            </label>
+            <span class="todo-time">오후 01:00</span>
+         </li>
+         <li>
+            <label class="check-list"><input type="checkbox" name="" value="">
+               <p class="todo-text">종로에서 댕댕이와 약속</p>
+            </label>
+            <span class="todo-time">오후 07:30</span>
+         </li>
+         <li>
+            <label class="check-list"><input type="checkbox" name="" value="">
+               <p class="todo-text">필라테스</p>
+            </label>
+            <span class="todo-time">오후 09:00</span>
+         </li>
+         <li>
+            <label class="check-list"><input type="checkbox" name="" value="">
+               <p class="todo-text">스크립트 공부하기</p>
+            </label>
+            <span class="todo-time">오후 11:00</span>
+         </li>
+      </ul>
+   </section>
+   <section class="wrap">
+      <h2>내일 할 일!</h2>
+      <div class="btn-add-area">
+         <button type="button" name="button" class="btn-add">+</button>
+      </div>
+
+      <ul class="todo-list">
+         <li>
+            <label class="check-list"><input type="checkbox" name="" value="">
+               <p class="todo-text">거래처 미팅</p>
+            </label>
+            <span class="todo-time">오후 01:00</span>
+         </li>
+         <li>
+            <label class="check-list"><input type="checkbox" name="" value="">
+               <p class="todo-text">요가</p>
+            </label>
+            <span class="todo-time">오후 09:00</span>
+         </li>
+         <li>
+            <label class="check-list"><input type="checkbox" name="" value="">
+               <p class="todo-text">스크립트 공부하기</p>
+            </label>
+            <span class="todo-time">오후 11:00</span>
+         </li>
+      </ul>
+   </section>
+
+   <section class="popup">
+      <div class="popup-area">
+         <div class="wrap">
+            <h3>할 일 추가!</h3>
+            <form class="" action="index.html" method="post">
+               <div class="input-area">
+                  <input type="text" placeholder="할일을 적어주세요.">
+                  <input type="date" name="" value="">
+                  <input type="time" name="" value="">
+               </div>
+               <div class="btn-area">
+                  <button type="button" class="btn-cancle">취소</button>
+                  <button type="button" class="btn-ok">추가하기</button>
+               </div>
+
+            </form>
+         </div>
+      </div>
+      <div class="popup-bg"></div>
+   </section>
+</body>
+
+</html>
